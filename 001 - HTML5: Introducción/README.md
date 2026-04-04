@@ -11,14 +11,12 @@ En esta clase aprenderás qué es HTML, cómo se estructura un documento HTML5, 
 
 En este capítulo aprenderás:
 
-- [Qué es HTML y su versión moderna HTML5](#41-qué-es-html-y-su-versión-moderna-html5)
-- [Por qué HTML no es un lenguaje de programación](#41-qué-es-html-y-su-versión-moderna-html5)
-- [Cómo se estructura un documento HTML5](#42-cómo-se-estructura-html)
-- [Qué son las etiquetas y cómo funcionan](#43-qué-es-una-etiqueta-en-html)
-- [La diferencia entre una etiqueta de apertura y una de cierre](#43-qué-es-una-etiqueta-en-html)
-- [Qué son los elementos vacíos y los elementos con contenido](#45-tipos-de-elementos)
-- [Qué son los atributos y cómo se escriben](#44-atributos)
-- [Cómo se relacionan los elementos mediante una estructura jerárquica](#46-jerarquía-entre-elementos)
+- [4.1 ¿Qué es HTML y su versión moderna HTML5?](#41-qué-es-html-y-su-versión-moderna-html5)
+- [4.2 ¿Cómo se estructura HTML?](#42-cómo-se-estructura-html)
+- [4.3 ¿Qué es una etiqueta en HTML?](#43-qué-es-una-etiqueta-en-html)
+- [4.4 Atributos](#44-atributos)
+- [4.5 Tipos de elementos](#45-tipos-de-elementos)
+- [4.6 Jerarquía entre elementos](#46-jerarquía-entre-elementos)
 
 ---
 
