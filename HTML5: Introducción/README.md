@@ -1,5 +1,6 @@
 # HTML5: Introducción
 
+Haz clic en la imagen para ver el video:
 [![Ver video](https://img.youtube.com/vi/1Lf0uWjNU_8/maxresdefault.jpg)](https://www.youtube.com/watch?v=1Lf0uWjNU_8)
 
 📌 HTML5 Introducción
