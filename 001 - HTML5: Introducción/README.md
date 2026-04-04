@@ -343,3 +343,7 @@ En esta clase aprendiste:
 Con esta base ya estás preparado para comenzar a crear tus primeras páginas web y entender mejor el resto de los temas del curso.
 
 ¡Nos vemos en la siguiente clase!
+
+---
+
+[⬅️ Capítulo anterior](../003%20-%20Nombre%20del%20capítulo/README.md) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../005%20-%20Nombre%20del%20capítulo/README.md)
