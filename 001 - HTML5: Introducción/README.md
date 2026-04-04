@@ -24,7 +24,7 @@ En este capítulo aprenderás:
 
 ## 📁 Recursos
 
-* `Recursos/index.html`
+- [index.html](./recursos/index.html)
 
 ---
 
