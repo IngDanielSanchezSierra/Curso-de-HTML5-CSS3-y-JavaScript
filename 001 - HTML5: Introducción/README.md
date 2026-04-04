@@ -1,7 +1,5 @@
 # Capítulo 004 - HTML5: Introducción
 
----
-
 [⬅️ Capítulo anterior](../003%20-%20Nombre%20del%20capítulo/README.md) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../005%20-%20Nombre%20del%20capítulo/README.md)
 
 Haz clic en la imagen para ver el video:
