@@ -1,5 +1,7 @@
 # HTML5: Introducción
 
+[![Ver video](https://img.youtube.com/vi/1Lf0uWjNU_8/maxresdefault.jpg)](https://www.youtube.com/watch?v=1Lf0uWjNU_8)
+
 📌 HTML5 Introducción
 ¡Comenzamos con lo esencial! En esta clase aprenderás qué es HTML, cómo se estructura un documento, cómo funcionan las etiquetas, atributos, y los distintos tipos de elementos. Todo esto con ejemplos claros y explicaciones paso a paso.
 
