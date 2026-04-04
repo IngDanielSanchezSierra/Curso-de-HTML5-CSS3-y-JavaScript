@@ -9,98 +9,117 @@ En esta clase aprenderás qué es HTML, cómo se estructura un documento HTML5, 
 
 ## 📁 Recursos
 
-- `Recursos/index.html`
+* `Recursos/index.html`
 
 ---
 
 ## 📖 Contenido del capítulo
 
-### 4.1 ¿Qué es HTML y su versión moderna HTML5?
+## 4.1 ¿Qué es HTML y su versión moderna HTML5?
 
 HTML son las siglas de **HyperText Markup Language**, que en español significa **Lenguaje de Marcado de Hipertexto**.
 
-HTML5 es la quinta y más reciente versión de este lenguaje. Esta versión introdujo numerosas mejoras, como:
+HTML5 es la quinta y más reciente versión de este lenguaje. Esta versión introdujo numerosas mejoras, entre ellas:
 
-- soporte nativo para audio y video
-- la posibilidad de crear gráficos y animaciones
-- un mejor manejo de formularios
-- y muchas otras funcionalidades que enriquecen la experiencia web
+* Soporte nativo para audio y video.
+* Posibilidad de crear gráficos y animaciones.
+* Mejor manejo de formularios.
+* Nuevas etiquetas y funcionalidades para estructurar páginas web.
 
-A lo largo de este curso exploraremos y aprenderemos todas estas nuevas características en detalle.
+A lo largo de este curso iremos aprendiendo cada una de estas características.
 
-Ahora que conocemos el significado de sus siglas, es importante aclarar que HTML no es un lenguaje de programación, ya que no permite implementar lógica ni realizar cálculos como lo hacen lenguajes como JavaScript.
+> [!IMPORTANT]
+> HTML no es un lenguaje de programación.
+>
+> HTML es un lenguaje de marcado que se utiliza para definir la estructura y organización del contenido de una página web.
 
-HTML es un lenguaje de marcado. Su función es definir la estructura y organizar el contenido de una página web.
+Esto significa que HTML no puede realizar operaciones, lógica o cálculos por sí solo, como sí lo hace JavaScript.
 
-Por ejemplo, HTML permite indicar:
+Por ejemplo, con HTML podemos indicar:
 
-- qué texto es un título
-- qué texto es un párrafo
-- dónde debe ir una imagen
-- cómo se organizan las distintas partes de una página
+* Qué texto es un título.
+* Qué contenido pertenece a un párrafo.
+* Dónde debe aparecer una imagen.
+* Cómo se organiza la estructura de una página.
 
 ---
 
-### 4.2 ¿Cómo se estructura HTML?
+## 4.2 ¿Cómo se estructura HTML?
 
-A continuación se muestra un ejemplo muy básico de código HTML5:
+Ahora que ya sabes qué es HTML5, veamos cómo se estructura un documento HTML.
+
+Todo documento HTML5 suele tener una estructura similar a la siguiente:
 
 ```html
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <title>Título de la página</title>
-    </head>
+     <head>
+          <meta charset="UTF-8">
+          <title>Título de la página</title>
+     </head>
 
-    <body>
-        <span>¡Bienvenid@!</span><br>
-        <span>Esta es una página HTML muy simple.</span>
-    </body>
+     <body>
+          <span>¡Bienvenid@!</span><br>
+          <span>Esta es una página HTML muy simple.</span>
+     </body>
 </html>
 ```
 
-Cuando este código es interpretado por un navegador, el resultado que se muestra en pantalla es:
+No es necesario que entiendas cada línea todavía. Más adelante aprenderás el propósito de cada elemento.
+
+Por ahora, lo importante es observar que un documento HTML está formado por varias partes:
+
+* `<!DOCTYPE html>`
+* `<html>`
+* `<head>`
+* `<body>`
+
+Cada una de estas partes cumple una función específica.
+
+### Explicación general de la estructura
+
+#### `<!DOCTYPE html>`
+
+Indica al navegador que el documento está escrito usando HTML5.
+
+#### `<html>`
+
+Es el elemento principal del documento. Todo el contenido de la página debe encontrarse dentro de esta etiqueta.
+
+#### `<head>`
+
+Contiene información interna del documento que normalmente no se muestra directamente en la página, por ejemplo:
+
+* El título de la pestaña.
+* La codificación del texto.
+* Configuraciones del documento.
+
+#### `<body>`
+
+Contiene todo el contenido visible que el usuario verá en la página web.
+
+En este ejemplo, dentro del `<body>` aparecen dos textos:
 
 ```text
 ¡Bienvenid@!
 Esta es una página HTML muy simple.
 ```
 
-Y además, en la pestaña del navegador aparece el texto:
-
-```text
-Título de la página
-```
-
-Por ahora no es necesario que entiendas completamente cada línea del código.
-
-Lo importante es observar la estructura general, ya que este ejemplo nos servirá para comprender mejor los conceptos que veremos a continuación.
-
-Podemos notar que el documento está formado por varios elementos colocados uno dentro de otro.
-
-Por ejemplo:
-
-- el elemento `<html>` contiene todo el documento
-- dentro de `<html>` se encuentran `<head>` y `<body>`
-- dentro de `<body>` se encuentra el contenido que se muestra al usuario
-
 ---
 
-### 4.3 ¿Qué es una etiqueta en HTML?
+## 4.3 ¿Qué es una etiqueta en HTML?
 
-HTML se basa en el uso de etiquetas.
+Después de entender la estructura de un documento, es importante conocer el concepto más básico de HTML: las etiquetas.
 
-Las etiquetas son instrucciones que le indican al navegador cómo debe interpretar y mostrar el contenido.
+Las etiquetas son instrucciones que utiliza HTML para indicar cómo debe organizarse o interpretarse el contenido.
 
-Una etiqueta se escribe entre los signos:
+Una etiqueta siempre se escribe entre los símbolos:
 
 ```text
-<
->
+< >
 ```
 
-Por ejemplo, estas son algunas etiquetas HTML:
+Por ejemplo:
 
 ```html
 <head>
@@ -109,12 +128,12 @@ Por ejemplo, estas son algunas etiquetas HTML:
 <span>
 ```
 
-La mayoría de las etiquetas están formadas por dos partes:
+La mayoría de las etiquetas tienen dos partes:
 
-1. una etiqueta de apertura
-2. una etiqueta de cierre
+* **Etiqueta de apertura**
+* **Etiqueta de cierre**
 
-La etiqueta de cierre se diferencia porque contiene una diagonal `/` antes del nombre.
+La etiqueta de cierre se diferencia porque incluye una diagonal `/` antes del nombre.
 
 Por ejemplo:
 
@@ -130,19 +149,21 @@ es la etiqueta de apertura, mientras que:
 
 es la etiqueta de cierre.
 
-Otro ejemplo es:
+Otro ejemplo:
 
 ```html
 <span>
 ```
 
-y su cierre correspondiente:
+Etiqueta de apertura.
 
 ```html
 </span>
 ```
 
-Entre la etiqueta de apertura y la etiqueta de cierre se coloca el contenido.
+Etiqueta de cierre.
+
+Estas etiquetas rodean contenido y le indican al navegador cómo debe interpretarlo.
 
 Por ejemplo:
 
@@ -150,35 +171,15 @@ Por ejemplo:
 <title>Título de la página</title>
 ```
 
-En este caso:
+El texto `Título de la página` será interpretado por el navegador como el título que aparece en la pestaña del sitio web.
 
-- `<title>` es la etiqueta de apertura
-- `</title>` es la etiqueta de cierre
-- `Título de la página` es el contenido
+---
 
-El navegador interpreta este contenido como el título de la pestaña del sitio web.
-
-Otro ejemplo es:
-
-```html
-<span>¡Bienvenid@!</span>
-```
-
-Aquí el contenido es:
-
-```text
-¡Bienvenid@!
-```
-
-y el navegador lo muestra en la página.
-
-#### Etiquetas auto-contenidas
+### Etiquetas que no necesitan cierre
 
 No todas las etiquetas tienen contenido.
 
-Existen algunas etiquetas que no necesitan una etiqueta de cierre porque no contienen texto ni otros elementos dentro de ellas.
-
-A estas se les conoce como etiquetas auto-contenidas.
+Existen algunas etiquetas que no requieren una etiqueta de cierre. A estas se les conoce como **elementos vacíos** o **etiquetas auto-contenidas**.
 
 Un ejemplo muy común es:
 
@@ -186,26 +187,27 @@ Un ejemplo muy común es:
 <br>
 ```
 
-La etiqueta `<br>` sirve para realizar un salto de línea.
+La etiqueta `<br>` sirve para insertar un salto de línea.
 
-Por eso, en el ejemplo anterior, el navegador muestra:
+> [!NOTE]
+> La etiqueta `<br>` no necesita una etiqueta de cierre porque es un elemento vacío.
+
+Gracias a esta etiqueta, el navegador muestra el texto así:
 
 ```text
 ¡Bienvenid@!
 Esta es una página HTML muy simple.
 ```
 
-Si elimináramos la etiqueta `<br>`, ambos textos aparecerían en la misma línea.
-
 ---
 
-### 4.4 Atributos
+## 4.4 Atributos
 
-Las etiquetas también pueden tener atributos.
+Además de las etiquetas, los elementos HTML también pueden tener atributos.
 
-Los atributos agregan información adicional sobre el elemento o modifican su comportamiento.
+Los atributos agregan información adicional sobre un elemento o modifican su comportamiento.
 
-Los atributos siempre se escriben dentro de la etiqueta de apertura.
+Los atributos se escriben dentro de la etiqueta de apertura.
 
 Por ejemplo:
 
@@ -215,46 +217,31 @@ Por ejemplo:
 
 En este caso:
 
-- `lang` es el nombre del atributo
-- `"es"` es el valor del atributo
+* `lang` es el nombre del atributo.
+* `"es"` es su valor.
 
-Esto le indica al navegador que el contenido de la página está en español.
+Este atributo indica que el contenido de la página está escrito en español.
 
-Los atributos siguen generalmente esta estructura:
-
-```html
-nombreDelAtributo="valor"
-```
-
-Por ejemplo:
+Otro ejemplo sencillo sería:
 
 ```html
-lang="es"
+<input type="text">
 ```
 
-Más adelante en el curso veremos muchos otros atributos, como:
-
-- `src`
-- `href`
-- `class`
-- `id`
-
-Cada uno sirve para algo distinto.
+Aquí, el atributo `type` indica qué tipo de campo será mostrado.
 
 ---
 
-### 4.5 Tipos de elementos
+## 4.5 Tipos de elementos
 
 En HTML existen dos tipos principales de elementos:
 
-- elementos vacíos
-- elementos con contenido
+* Elementos vacíos.
+* Elementos con contenido.
 
-#### Elementos vacíos
+### Elementos vacíos
 
-Los elementos vacíos solo tienen etiqueta de apertura.
-
-No tienen contenido ni necesitan una etiqueta de cierre.
+Los elementos vacíos solo tienen una etiqueta de apertura.
 
 Por ejemplo:
 
@@ -262,23 +249,17 @@ Por ejemplo:
 <br>
 ```
 
-Este elemento únicamente sirve para hacer un salto de línea.
+No tiene contenido ni etiqueta de cierre.
 
-Otros ejemplos de elementos vacíos que veremos más adelante son:
+Su única función es insertar un salto de línea.
 
-```html
-<img>
-<meta>
-<input>
-```
+### Elementos con contenido
 
-#### Elementos con contenido
+Los elementos con contenido sí tienen:
 
-Los elementos con contenido tienen:
-
-- una etiqueta de apertura
-- una etiqueta de cierre
-- contenido entre ambas
+* Etiqueta de apertura.
+* Contenido.
+* Etiqueta de cierre.
 
 Por ejemplo:
 
@@ -286,88 +267,64 @@ Por ejemplo:
 <span>Esta es una página HTML muy simple.</span>
 ```
 
-Aquí:
+En este caso:
 
-- `<span>` es la etiqueta de apertura
-- `</span>` es la etiqueta de cierre
-- `Esta es una página HTML muy simple.` es el contenido
-
-Además, el contenido de un elemento puede incluir otros elementos dentro.
-
-Por ejemplo:
-
-```html
-<body>
-    <span>¡Bienvenid@!</span>
-    <br>
-    <span>Esta es una página HTML muy simple.</span>
-</body>
-```
-
-En este caso, el elemento `<body>` contiene otros tres elementos:
-
-- `<span>`
-- `<br>`
-- `<span>`
-
-Esto significa que `<body>` es el elemento padre, mientras que los demás son sus elementos hijos.
-
-#### Estructura jerárquica
-
-Los elementos HTML se organizan de forma jerárquica, como si fueran un árbol.
-
-El elemento principal o raíz del documento es:
-
-```html
-<html>
-```
-
-Dentro de él se encuentran:
-
-```html
-<head>
-<body>
-```
-
-Y a su vez, dentro de `<head>` se encuentran:
-
-```html
-<meta>
-<title>
-```
-
-Mientras que dentro de `<body>` se encuentran:
-
-```html
-<span>
-<br>
-<span>
-```
-
-Por esta razón, en HTML se utilizan los conceptos de:
-
-- elemento padre
-- elemento hijo
-
-Comprender esta jerarquía es muy importante, ya que toda página web está construida de esta manera.
+* `<span>` es la etiqueta de apertura.
+* `Esta es una página HTML muy simple.` es el contenido.
+* `</span>` es la etiqueta de cierre.
 
 ---
 
-### 4.6 Conclusión
+## 4.6 Jerarquía entre elementos
 
-En esta clase aprendiste que HTML no es un lenguaje de programación, sino un lenguaje de marcado.
+Los elementos HTML también pueden colocarse unos dentro de otros.
 
-También aprendiste que HTML permite estructurar el contenido de una página web mediante etiquetas.
+Cuando un elemento está dentro de otro, se forma una relación de:
 
-Además, conociste:
+* Elemento padre.
+* Elemento hijo.
 
-- la estructura básica de un documento HTML
-- qué son las etiquetas
-- la diferencia entre etiquetas normales y etiquetas auto-contenidas
-- qué son los atributos
-- la diferencia entre elementos vacíos y elementos con contenido
-- cómo funciona la jerarquía entre elementos padre e hijo
+Por ejemplo, en el documento anterior, `<html>` es el elemento principal o elemento raíz.
 
-Con este conocimiento fundamental, ahora estás preparado para comenzar a crear tus primeras páginas web estructuradas y explorar más a fondo todas las posibilidades que HTML5 ofrece.
+Dentro de él se encuentran los elementos:
+
+* `<head>`
+* `<body>`
+
+Por lo tanto, `<head>` y `<body>` son hijos de `<html>`.
+
+A su vez, estos elementos también pueden ser padres de otros.
+
+La estructura del ejemplo se vería de esta forma:
+
+```text
+<html>
+├── <head>
+│   ├── <meta>
+│   └── <title>
+└── <body>
+    ├── <span>
+    ├── <br>
+    └── <span>
+```
+
+Esto permite organizar el contenido como si fuera un árbol.
+
+---
+
+## 4.7 Conclusión
+
+En esta clase aprendiste:
+
+* Qué significa HTML.
+* Qué es HTML5.
+* Por qué HTML no es un lenguaje de programación.
+* Cómo se estructura un documento HTML.
+* Qué son las etiquetas.
+* Qué son los atributos.
+* La diferencia entre elementos vacíos y elementos con contenido.
+* Cómo funciona la relación entre elementos padre e hijo.
+
+Con esta base ya estás preparado para comenzar a crear tus primeras páginas web y entender mejor el resto de los temas del curso.
 
 ¡Nos vemos en la siguiente clase!
