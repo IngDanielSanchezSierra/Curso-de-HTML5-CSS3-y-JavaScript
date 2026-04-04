@@ -7,6 +7,21 @@ En esta clase aprenderás qué es HTML, cómo se estructura un documento HTML5, 
 
 ---
 
+## 📌 Temas que verás en esta clase
+
+En este capítulo aprenderás:
+
+- Qué es HTML y su versión moderna HTML5.
+- Por qué HTML no es un lenguaje de programación.
+- Cómo se estructura un documento HTML5.
+- Qué son las etiquetas y cómo funcionan.
+- La diferencia entre una etiqueta de apertura y una de cierre.
+- Qué son los elementos vacíos y los elementos con contenido.
+- Qué son los atributos y cómo se escriben.
+- Cómo se relacionan los elementos mediante una estructura jerárquica.
+
+---
+
 ## 📁 Recursos
 
 * `Recursos/index.html`
