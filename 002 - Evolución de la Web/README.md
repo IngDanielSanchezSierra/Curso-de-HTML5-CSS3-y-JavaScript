@@ -13,7 +13,7 @@ De HTML básico a la Web Moderna con HTML5, CSS3 y JavaScript
 
 En este capítulo aprenderás:
 
-- [2.1 ¡Bienvenid@ al curso!](#2-1)
+- [2.1 De HTML básico a la Web Moderna con HTML5, CSS3 y JavaScript](#2-1)
 
 ---
 
