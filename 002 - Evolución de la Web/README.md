@@ -43,6 +43,13 @@ Pero claro, la tecnología no se queda quieta. Con el tiempo, mejoraron las pant
 
 Pero aún había algo que faltaba. HTML y CSS nos daban un sitio bonito, pero no nos permitían interactuar realmente con él.
 
+<video width="600" controls>
+  <source src="media/Fig. 3 - Ejemplo de una página web en HTML, CSS y JavaScript.mp4" type="video/mp4">
+  Tu navegador no soporta la reproducción de videos.
+</video>
+
+<p><em>Fig. 3: Ejemplo de una página web en HTML, CSS y JavaScript.</em></p>
+
 Fue entonces cuando JavaScript, que ya estaba por ahí, dio un paso al frente. Al estar integrado en los navegadores, JavaScript tenía acceso al contenido HTML de la página y podía manipularlo en tiempo real. ¡Podía hacer que el sitio respondiera! Podías pedir datos al servidor sin recargar la página, procesar información, mostrar resultados… En resumen, convertía la web en algo dinámico.
 
 Así que ya teníamos los tres grandes: HTML, CSS y JavaScript, cada uno cumpliendo su rol y dándonos el poder de construir sitios completos y con vida propia. Pero había un problema: estos lenguajes habían evolucionado por caminos separados, así que había algunas inconsistencias. La solución vino con HTML5, una versión que, ahora sí, unificó todo. HTML estructura, CSS diseña, y JavaScript le da vida. ¡La web como la conocemos hoy estaba lista!
