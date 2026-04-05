@@ -1,6 +1,6 @@
 # Capítulo 004 - HTML5: Introducción
 
-[⬅️ Capítulo anterior](../003%20-%20Nombre%20del%20capítulo/README.md) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../005%20-%20Nombre%20del%20capítulo/README.md)
+[⬅️ Capítulo anterior](../003%20-%20Preparando%20nuestro%20entorno%20de%20desarrollo) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../)
 
 Haz clic en la imagen para ver el video:
 [![Ver video](https://img.youtube.com/vi/1Lf0uWjNU_8/maxresdefault.jpg)](https://www.youtube.com/watch?v=1Lf0uWjNU_8)
@@ -346,4 +346,4 @@ Con esta base ya estás preparado para comenzar a crear tus primeras páginas we
 
 ---
 
-[⬅️ Capítulo anterior](../003%20-%20Nombre%20del%20capítulo/README.md) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../005%20-%20Nombre%20del%20capítulo/README.md)
+[⬅️ Capítulo anterior](../003%20-%20Preparando%20nuestro%20entorno%20de%20desarrollo) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../)
