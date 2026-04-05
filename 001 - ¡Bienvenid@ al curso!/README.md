@@ -21,6 +21,12 @@ En este capítulo aprenderás:
 
 ---
 
+## 📁 Recursos
+
+Este capítulo no tiene archivos adicionales.
+
+---
+
 ## 📖 Contenido del capítulo
 
 ## <a name="1-1"></a>1.1 ¡Bienvenid@ al curso!
