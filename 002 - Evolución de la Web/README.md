@@ -34,6 +34,10 @@ Hoy vamos a hacer un pequeño viaje en el tiempo y ver cómo todo esto comenzó.
   <figcaption>Fig. 1: Ejemplo de una página web en HTML.</figcaption>
 </figure>
 
+![Fig. 1 - Ejemplo de una página web en HTML](media/Fig.%201%20-%20Ejemplo%20de%20una%20página%20web%20en%20HTML.png)
+
+*Fig. 1: Ejemplo de una página web en HTML.*
+
 Imagina la web en sus primeros días, cuando apenas existía una versión muy básica de HTML. El propósito era sencillo: dar una estructura básica al texto para que los documentos pudieran compartirse entre computadoras a distancia. Era como si solo quisiéramos decirle a la computadora: "Esto es un título, esto es un párrafo". Nada de colores, nada de imágenes… era solo texto estructurado.
 
 Pero claro, la tecnología no se queda quieta. Con el tiempo, mejoraron las pantallas, llegó el color, y de repente queríamos más: imágenes, diferentes tipos de letra, un diseño que hiciera las páginas más atractivas. En ese momento, el HTML básico ya no era suficiente y a los desarrolladores se les empezó a complicar la cosa. Ahí es cuando entra en escena CSS, el cual permitió separar el contenido (el HTML) de la presentación (el CSS). Así, el HTML se encargaba de la estructura, mientras que el CSS se ocupaba de los colores, las fuentes, el diseño. Era un respiro enorme para los desarrolladores, que ya no tenían que romperse la cabeza tratando de hacer que el diseño y el contenido funcionaran juntos de una manera tan rígida.
