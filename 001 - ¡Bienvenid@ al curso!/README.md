@@ -13,25 +13,21 @@ Introducción al Curso de HTML5, CSS3 y JavaScript | Bienvenida
 
 En este capítulo aprenderás:
 
-- [1.1 ¡Bienvenid@ al curso!](#11-bienvenid-al-curso)
-- [1.2 Para quién está diseñado el curso](#12-para-quien-esta-disenado-el-curso)
-- [1.3 Qué aprenderás en este curso](#13-que-aprenderas-en-este-curso)
-- [1.4 Cómo aprenderás en este curso](#14-como-aprenderas-en-este-curso)
-- [1.5 Por qué aprender HTML, CSS y JavaScript](#15-por-que-aprender-html-css-y-javascript)
+- [1.1 ¡Bienvenid@ al curso!](#1-1)
+- [1.2 ¿Para quién está diseñado el curso?](#1-2)
+- [1.3 ¿Qué aprenderás en este curso?](#1-3)
+- [1.4 ¿Cómo aprenderás en este curso?](#1-4)
+- [1.5 ¿Por qué aprender HTML, CSS y JavaScript?](#1-5)
 
 ---
 
 ## 📖 Contenido del capítulo
 
-## 1.1 ¡Bienvenid@ al curso!
-
-## 1.2 ¿Para quién está diseñado el curso?
-
-## 1.3 ¿Qué aprenderás en este curso?
-
-## 1.4 ¿Cómo aprenderás en este curso?
-
-## 1.5 ¿Por qué aprender HTML, CSS y JavaScript?
+## <a name="1-1"></a>1.1 ¡Bienvenid@ al curso!
+## <a name="1-2"></a>1.2 ¿Para quién está diseñado el curso?
+## <a name="1-3"></a>1.3 ¿Qué aprenderás en este curso?
+## <a name="1-4"></a>1.4 ¿Cómo aprenderás en este curso?
+## <a name="1-5"></a>1.5 ¿Por qué aprender HTML, CSS y JavaScript?
 
 ---
 
