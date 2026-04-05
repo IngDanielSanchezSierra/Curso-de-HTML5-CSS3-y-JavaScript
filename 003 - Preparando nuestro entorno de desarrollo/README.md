@@ -31,122 +31,117 @@ Este capítulo no tiene archivos adicionales.
 
 ## 📖 Contenido del capítulo
 
-### <a name="3-1"></a>3.1 Instalación de herramientas para el desarrollo
+<a name="3-1"></a>3.1 Instalación de herramientas para el desarrollo
 
-Antes de comenzar con el desarrollo web, es fundamental contar con las herramientas adecuadas. En esta clase instalaremos un editor de código para trabajar con HTML, CSS y JavaScript, también instalaremos un navegador web que ofrezca herramientas de desarrollo avanzadas.
+Antes de comenzar con el desarrollo web, es importante contar con las herramientas adecuadas. En este capítulo instalaremos un editor de código para trabajar con HTML, CSS y JavaScript, y también un navegador web que nos permita visualizar nuestras páginas y utilizar herramientas de desarrollo avanzadas.
 
-### <a name="3-2"></a>3.2 Editor de código
+<a name="3-2"></a>3.2 Editor de código
 
-Existen editores de código especialmente diseñados para programadores que facilitan y mejoran la experiencia en el desarrollo. 
+Existen editores de código especialmente diseñados para programadores que facilitan y mejoran la experiencia durante el desarrollo.
 
-### <a name="3-3"></a>3.3 Instalación de Visual Studio Code (VS Code)
+<a name="3-3"></a>3.3 Instalación de Visual Studio Code (VS Code)
 
-Para este curso instalaremos y utilizaremos el editor de código Visual Studio Code porque es una de las mejores opciones para programar debido a sus múltiples ventajas: Es un editor ligero, potente y gratuito desarrollado por Microsoft. Además, es una herramienta versátil que permite programar en diversos lenguajes y tecnologías, no solo para desarrollo web, sino también para aplicaciones móviles, de escritorio y más. Su amplia compatibilidad te brindará la ventaja de poder usarla para cualquier tipo de desarrollo.
+Para este curso utilizaremos el editor de código Visual Studio Code, ya que es una de las mejores opciones para programar gracias a sus múltiples ventajas. Es un editor ligero, potente y gratuito desarrollado por Microsoft.
 
-#### Pasos para instalar Visual Studio Code:
-- Abre tu navegador.
-- Visita el sitio oficial de VS Code: https://code.visualstudio.com
-- Descarga la versión para Windows haciendo clic en el botón de descarga.
-- Una vez que se haya descargado el archivo, ábrelo para iniciar la instalación.
-- Acepta los términos y condiciones.
-- Elige la carpeta donde quieres instalarlo (puedes dejar la opción por defecto).
-- Se creará una carpeta llamada "Visual Studio Code" en el menú inicio.
-- Deja marcadas las opciones recomendadas.
-- Haz clic en "Instalar" y espera a que termine el proceso.
-- Haz clic en "Finalizar" y abre VS Code.
-- ¡Y eso es todo! Ahora ya tienes Visual Studio Code instalado y listo para usar.
+Además, Visual Studio Code es una herramienta muy versátil, ya que permite programar en distintos lenguajes y tecnologías, no solo para desarrollo web, sino también para aplicaciones móviles, de escritorio y muchos otros tipos de proyectos. Su amplia compatibilidad te permitirá utilizarlo prácticamente para cualquier tipo de desarrollo.
 
-### <a name="3-4"></a>3.4 Instalación de extensiones para Visual Studio Code
+Pasos para instalar Visual Studio Code
+Abre tu navegador.
+Ingresa al sitio oficial de VS Code: https://code.visualstudio.com
+Descarga la versión para Windows haciendo clic en el botón de descarga.
+Cuando termine la descarga, abre el archivo para iniciar la instalación.
+Acepta los términos y condiciones.
+Elige la carpeta donde deseas instalarlo. Puedes dejar la ubicación predeterminada si lo prefieres.
+Se creará una carpeta llamada Visual Studio Code en el menú Inicio.
+Deja activadas las opciones recomendadas.
+Haz clic en Instalar y espera a que finalice el proceso.
+Haz clic en Finalizar y abre VS Code.
 
-Visual Studio Code permite instalar extensiones para mejorar la experiencia de desarrollo. Las extensiones pueden agregar funcionalidades como: resaltar la sintaxis con diferentes colores para ayudarnos a identificar cada parte del código, autocompletado de código, corrección automática de errores y muchas más.
+¡Listo! Ahora ya tienes Visual Studio Code instalado y preparado para comenzar a trabajar.
 
-En este curso, vamos a instalar algunas extensiones que nos facilitarán el desarrollo en HTML, CSS y JavaScript. Estas extensiones son mis recomendaciones personales, y su instalación es completamente opcional.
+<a name="3-4"></a>3.4 Instalación de extensiones para Visual Studio Code
 
-Visual Studio Code cuenta con una amplia variedad de extensiones disponibles, no solo para HTML, CSS y JavaScript, sino también para muchos otros lenguajes y tecnologías. Si lo consideran necesario, pueden explorar e instalar aquellas que mejor se adapten a tus necesidades y preferencias.
+Visual Studio Code permite instalar extensiones para mejorar la experiencia de desarrollo. Estas extensiones pueden agregar funcionalidades como resaltado de sintaxis, autocompletado de código, detección de errores, formateo automático y muchas otras herramientas útiles.
 
-##### Live Server
+En este curso instalaremos algunas extensiones recomendadas para trabajar con HTML, CSS y JavaScript. Su instalación es completamente opcional, pero pueden ayudarte a desarrollar de forma más cómoda y eficiente.
 
-Iniciaremos con la instalación de la extensión Live Server, la cual nos permite visualizar cambios en tiempo real sin necesidad de recargar la página manualmente.
+Visual Studio Code cuenta con una gran variedad de extensiones disponibles, no solo para HTML, CSS y JavaScript, sino también para muchos otros lenguajes y tecnologías. Si lo deseas, más adelante podrás explorar e instalar las que mejor se adapten a tus necesidades.
 
-##### Pasos para instalar Live Server:
+Live Server
 
-- Abre Visual Studio Code.
-- Haz clic en el icono de Extensiones o presiona la combinación de teclas: Ctrl + Shift + X.
-- En la barra de búsqueda, escribe Live Server.
-- Haz clic en Instalar y espera a que finalice la instalación.
+Comenzaremos instalando la extensión Live Server, la cual nos permite visualizar los cambios realizados en nuestro proyecto en tiempo real, sin necesidad de recargar manualmente la página.
 
-##### ¿Cómo usar Live Server?
+Pasos para instalar Live Server
+Abre Visual Studio Code.
+Haz clic en el icono de Extensiones o presiona la combinación de teclas Ctrl + Shift + X.
+En la barra de búsqueda, escribe Live Server.
+Haz clic en Instalar y espera a que termine la instalación.
+¿Cómo usar Live Server?
 
-Ahora cada vez que guardes los cambios en tu código, estos se actualizarán automáticamente en el navegador. Ya no tendrás la necesidad de recargar la página manualmente para visualizar los cambios que realices en tu código.
+A partir de este momento, cada vez que guardes los cambios de tu código, la página se actualizará automáticamente en el navegador. Ya no será necesario recargarla manualmente para ver los cambios.
 
-#### HTML CSS Support
+HTML CSS Support
 
-Seguimos con la instalación de la extensión HTML CSS Support, la cual te ayuda a trabajar mejor con HTML y CSS. 
+Ahora instalaremos la extensión HTML CSS Support, la cual te ayuda a trabajar de forma más cómoda con HTML y CSS.
 
-##### Pasos para instalar HTML CSS Support:
+Pasos para instalar HTML CSS Support
+Haz clic en el icono de Extensiones.
+En la barra de búsqueda, escribe HTML CSS Support.
+Haz clic en Instalar y espera a que finalice la instalación.
+¿Cómo usar HTML CSS Support?
 
-- Haz clic en el icono de Extensiones. 
-- En la barra de búsqueda, escribe HTML CSS Support.
-- Haz clic en Instalar y espera a que finalice la instalación.
+Cuando utilices una clase dentro de tu código HTML, esta extensión te sugerirá automáticamente las clases que ya hayas definido previamente en tu CSS.
 
-##### ¿Cómo usar HTML CSS Support?
+Si todavía no entiendes completamente cómo funciona esta extensión, no te preocupes. Más adelante aprenderemos qué es una clase en CSS. Por ahora, imagina que sucede algo parecido a cuando escribes un número de teléfono en tu celular y el dispositivo comienza a sugerirte contactos guardados. De la misma forma, esta extensión te irá sugiriendo automáticamente las clases disponibles mientras escribes tu código HTML.
 
-Ahora cuando quieras utilizar una clase de tu código HTML, la extensión te sugerirá automáticamente las clases que ya hayas definido.
+Prettier - Code Formatter
 
-Si aún no comprendes completamente cómo funciona esta extensión, no te preocupes, ya que aún no te he explicado qué es una clase en CSS. Para que te hagas una idea, piensa en cuando escribes un número de teléfono en tu celular cuando quieres hacer una llamada: a medida que lo ingresas, el dispositivo te sugiere contactos coincidentes guardados en tu agenda. De manera similar, esta extensión te sugiere automáticamente las clases que ya has definido en tu CSS mientras escribes tu código HTML.
+También instalaremos la extensión Prettier - Code Formatter, la cual permite formatear automáticamente el código para mantenerlo organizado, limpio y fácil de leer.
 
-#### Prettier - Code formatter
+Pasos para instalar Prettier - Code Formatter
+Haz clic en el icono de Extensiones.
+En la barra de búsqueda, escribe Prettier - Code formatter.
+Haz clic en Instalar y espera a que termine la instalación.
+¿Cómo usar Prettier - Code Formatter?
 
-Ahora instalaremos la extensión Prettier - Code formatter, la cual nos permite formatear automáticamente el código, manteniéndolo organizado, facilitando su lectura y comprensión.
+Podrás formatear tu código fácilmente haciendo clic derecho dentro del editor y seleccionando Format Document, o utilizando la combinación de teclas Shift + Alt + F.
 
-##### Pasos para instalar Prettier - Code formatter:
+ESLint
 
-- Haz clic en el icono de Extensiones. 
-- En la barra de búsqueda, escribe Prettier - Code formatter.
-- Haz clic en Instalar y espera a que finalice la instalación.
+Por último, instalaremos la extensión ESLint, la cual nos ayuda a detectar errores de sintaxis y malas prácticas en el código JavaScript.
 
-##### ¿Cómo usar Prettier - Code formatter?
+Pasos para instalar ESLint
+Haz clic en el icono de Extensiones.
+En la barra de búsqueda, escribe ESLint.
+Haz clic en Instalar y espera a que finalice la instalación.
+¿Cómo usar ESLint?
 
-Ahora podrás formatear y organizar tu código fácilmente dando clic derecho en el editor y seleccionando Format Document, o presionando la combinación de teclas:  Shift + Alt + F.
+A partir de ahora, ESLint marcará automáticamente los errores y advertencias en tu código, resaltándolos en color rojo o amarillo. También podrás consultar más detalles en la barra de problemas ubicada en la parte inferior de Visual Studio Code.
 
-#### ESLint
+<a name="3-5"></a>3.5 Navegador Web
 
-Por último, instalaremos la extensión ESLint, la cual nos ayuda a detectar y corregir errores de sintaxis y malas prácticas en tu código JavaScript.
+Para visualizar nuestras páginas web, necesitamos un navegador actualizado. Existen muchos navegadores disponibles, como Google Chrome, Mozilla Firefox o Microsoft Edge.
 
-##### Pasos para instalar ESLint:
+<a name="3-6"></a>3.6 Instalación de Google Chrome
 
-- Haz clic en el icono de Extensiones. 
-- En la barra de búsqueda, escribe ESLint.
-- Haz clic en Instalar y espera a que finalice la instalación.
+Para este curso se recomienda utilizar Google Chrome, ya que ofrece herramientas de desarrollo avanzadas que aprenderemos a usar más adelante.
 
-##### ¿Cómo usar ESLint?
+Si ya tienes Google Chrome instalado, significa que ya estás listo para comenzar a desarrollar y puedes finalizar este capítulo aquí. En caso contrario, sigue estos pasos para instalarlo.
 
-Ahora ESLint marcará automáticamente los errores o advertencias en el código resaltándolos en rojo o amarillo. También podrás ver más detalles sobre los errores en la barra de problemas (en la parte inferior).
+Pasos para instalar Google Chrome
+Abre el navegador que tengas instalado actualmente.
+Ingresa al sitio oficial de Google Chrome: https://www.google.com/chrome
+Haz clic en el botón Descargar Chrome.
+Cuando termine la descarga, abre el archivo para iniciar la instalación.
+Aparecerá una ventana solicitando permiso para realizar cambios en tu dispositivo. Haz clic en Sí.
+Chrome comenzará a instalarse automáticamente. Solo espera unos segundos.
+Cuando finalice la instalación, Google Chrome se abrirá automáticamente.
+Si lo deseas, puedes iniciar sesión con tu cuenta de Google para sincronizar marcadores, contraseñas e historial.
+También puedes establecer Google Chrome como tu navegador predeterminado, aunque este paso es opcional.
 
-### <a name="3-5"></a>3.5 Navegador Web
+¡Y listo! Ahora ya tienes Google Chrome instalado y preparado para utilizarse durante el curso.
 
-Para visualizar nuestras páginas web, necesitamos un navegador actualizado. Existen muchos navegadores, como Google Chrome, Mozilla Firefox y Microsoft Edge. 
-
-### <a name="3-6"></a>3.6 Instalación de Google Chrome
-
-Para este curso se recomienda utilizar Google Chrome, ya que ofrece herramientas de desarrollo avanzadas, las cuales estaremos aprendiendo y utilizando a lo largo del curso.
-
-Si ya tienes instalado Google Chrome, significa que estás listo para comenzar a desarrollar, por lo que puedes finalizar esta clase aquí. Si no, procederemos con la instalación.
-
-##### Pasos para instalar Google Chrome:
-
-- Abre tu navegador actual.
-- Visita el sitio oficial de Google Chrome: https://www.google.com/chrome
-- En la página oficial, haz clic en el botón Descargar Chrome.
-- Una vez que se haya descargado el archivo, ábrelo para iniciar la instalación.
-- Aparecerá una ventana de instalación, haz clic en Sí para permitir los cambios en tu dispositivo.
-- Chrome comenzará a instalarse automáticamente. Solo espera unos segundos.
-- Una vez terminada la instalación, Google Chrome se abrirá automáticamente.
-- Puedes iniciar sesión con tu cuenta de Google para sincronizar marcadores, contraseñas e historial (puedes omitir esta opción si lo deseas).
-- Puedes establecer Google Chrome como tu navegador web predeterminado (también puedes omitir esta opción si lo deseas).
-- ¡Y eso es todo! Ahora ya tienes Google Chrome instalado y listo para usar.
-
-Con Visual Studio Code y Google Chrome instalados, ya estamos listos para comenzar a desarrollar. ¡Nos vemos en la siguiente clase!
+Con Visual Studio Code y Google Chrome instalados, ya tienes todo lo necesario para comenzar a desarrollar. ¡Nos vemos en el siguiente capítulo!
 
 ---
 
