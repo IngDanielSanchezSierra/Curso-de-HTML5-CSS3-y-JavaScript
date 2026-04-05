@@ -29,13 +29,7 @@ Este capítulo no tiene archivos adicionales.
 
 Hoy vamos a hacer un pequeño viaje en el tiempo y ver cómo todo esto comenzó.
 
-<figure>
-  <img src="media/Fig. 1 - Ejemplo de una página web en HTML.png" alt="Ejemplo de una página web en HTML" width="600">
-  <figcaption>Fig. 1: Ejemplo de una página web en HTML.</figcaption>
-</figure>
-
 ![Fig. 1 - Ejemplo de una página web en HTML](media/Fig.%201%20-%20Ejemplo%20de%20una%20página%20web%20en%20HTML.png)
-
 *Fig. 1: Ejemplo de una página web en HTML.*
 
 Imagina la web en sus primeros días, cuando apenas existía una versión muy básica de HTML. El propósito era sencillo: dar una estructura básica al texto para que los documentos pudieran compartirse entre computadoras a distancia. Era como si solo quisiéramos decirle a la computadora: "Esto es un título, esto es un párrafo". Nada de colores, nada de imágenes… era solo texto estructurado.
