@@ -43,12 +43,9 @@ Pero claro, la tecnología no se queda quieta. Con el tiempo, mejoraron las pant
 
 Pero aún había algo que faltaba. HTML y CSS nos daban un sitio bonito, pero no nos permitían interactuar realmente con él.
 
-<video width="600" controls>
-  <source src="media/Fig. 3 - Ejemplo de una página web en HTML, CSS y JavaScript.mp4" type="video/mp4">
-  Tu navegador no soporta la reproducción de videos.
-</video>
+![Fig. 3 - Ejemplo de una página web en HTML, CSS y JavaScript](media/Fig.%203%20-%20Ejemplo%20de%20una%20página%20web%20en%20HTML%2C%20CSS%20y%20JavaScript.gif)
 
-<p><em>Fig. 3: Ejemplo de una página web en HTML, CSS y JavaScript.</em></p>
+*Fig. 3 - Ejemplo de una página web en HTML, CSS y JavaScript.*
 
 Fue entonces cuando JavaScript, que ya estaba por ahí, dio un paso al frente. Al estar integrado en los navegadores, JavaScript tenía acceso al contenido HTML de la página y podía manipularlo en tiempo real. ¡Podía hacer que el sitio respondiera! Podías pedir datos al servidor sin recargar la página, procesar información, mostrar resultados… En resumen, convertía la web en algo dinámico.
 
