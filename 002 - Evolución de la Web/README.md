@@ -30,7 +30,7 @@ Este capítulo no tiene archivos adicionales.
 Hoy vamos a hacer un pequeño viaje en el tiempo y ver cómo todo esto comenzó.
 
 <figure>
-  <img src="media/fig1_ejemplo_html.png" alt="Ejemplo de una página web en HTML" width="600">
+  <img src="media/Fig. 1 - Ejemplo de una página web en HTML.png" alt="Ejemplo de una página web en HTML" width="600">
   <figcaption>Fig. 1: Ejemplo de una página web en HTML.</figcaption>
 </figure>
 
