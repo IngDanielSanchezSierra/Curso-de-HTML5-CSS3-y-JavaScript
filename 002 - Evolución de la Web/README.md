@@ -1,6 +1,6 @@
 # Capítulo 002 - Evolución de la Web
 
-[🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../)
+[⬅️ Capítulo anterior](../001%20-%20¡Bienvenid%40%20al%20curso!) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../)
 
 Haz clic en la imagen para ver el video:
 [![Ver video](https://img.youtube.com/vi/xbrDUmiMN5U/maxresdefault.jpg)](https://www.youtube.com/watch?v=xbrDUmiMN5U)
@@ -43,5 +43,5 @@ Ahora, en este curso, vamos a sumergirnos en cómo usar cada uno de estos lengua
 
 ---
 
-[🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../)
+[⬅️ Capítulo anterior](../001%20-%20¡Bienvenid%40%20al%20curso!) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../)
 
