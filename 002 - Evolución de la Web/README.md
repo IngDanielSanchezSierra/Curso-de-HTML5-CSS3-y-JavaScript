@@ -88,7 +88,11 @@ Así que ya teníamos los tres grandes:
 
 - **HTML** → estructura  
 - **CSS** → diseño  
-- **JavaScript** → vida e interacción  
+- **JavaScript** → vida e interacción
+
+![Fig. 4 - HTML5 unificó todo.](media/Fig.%204%20-%20HTML5%20unificó%20todo.png)
+
+*Fig. 4 - HTML5 unificó todo.*
 
 Pero había un problema: los tres lenguajes habían evolucionado por caminos separados, generando algunas inconsistencias.  
 La solución vino con **HTML5**, una versión que unificó todo.  
