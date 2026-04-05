@@ -57,7 +57,7 @@ Son tantos idiomas que podemos usar en el atributo “lang” que no los podemos
 
 Ejemplos comunes:
 
-![Fig. 1 - Tabla de códigos de idiomas BCP más comunes](media/Fig.%201%20-%20Ejemplo%20de%20una%20página%20web%20en%20HTML.png)
+![Fig. 1 - Tabla de códigos de idiomas BCP más comunes](media/Fig.%201%20-%20Tabla%20de%20códigos%20de%20idiomas%20BCP%20más%20comunes.png)
 
 *Fig. 1 - Tabla de códigos de idiomas BCP más comunes.*
 
