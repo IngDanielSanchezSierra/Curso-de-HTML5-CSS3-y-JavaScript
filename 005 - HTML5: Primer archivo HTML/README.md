@@ -29,52 +29,85 @@ En este capítulo aprenderás:
 
 ### <a name="5-1"></a>5.1 Relación entre HTML, CSS y JavaScript
 
-Recordemos que para construir una página web bien estructurada, visualmente atractiva y funcional, es fundamental combinar tres tecnologías principales:
+Para crear una página web completa es necesario combinar tres tecnologías principales: `HTML`, `CSS` y `JavaScript`.
 
-- HTML: EL cual se encarga de definir la estructura del contenido de la página web.
-- CSS: El cual se ocupa del diseño y la apariencia visual de la página.
-- Y JavaScript: El cual aporta la funcionalidad e interactividad.
-- 
-Cada una de estas tecnologías se escribe normalmente en archivos separados:
+- `HTML` se encarga de definir la estructura y el contenido de la página web.
+- `CSS` se utiliza para el diseño y la apariencia visual.
+- `JavaScript` aporta funcionalidad e interactividad.
 
-- HTML en archivos con extensión .html
-- CSS en archivos con extensión .css
-- Y JavaScript en archivos con extensión .js
+Cada una de estas tecnologías se escribe normalmente en archivos independientes:
 
-Los archivos CSS y JavaScript se enlazan dentro del archivo HTML principal, permitiendo así que trabajen en conjunto.
+- `HTML` en archivos con extensión `.html`
+- `CSS` en archivos con extensión `.css`
+- `JavaScript` en archivos con extensión `.js`
 
-Es posible escribir CSS y JavaScript directamente dentro del archivo .html, pero separar el código en archivos independientes es una buena práctica de desarrollo por varias razones:
+Los archivos `CSS` y `JavaScript` se enlazan posteriormente dentro del archivo HTML principal para que todas las tecnologías trabajen juntas.
+
+> [!NOTE]
+> Aunque es posible escribir código CSS y JavaScript directamente dentro de un archivo `.html`, en este curso utilizaremos archivos separados, ya que es la forma correcta y más recomendada de trabajar.
+
+Separar cada tecnología en su propio archivo tiene varias ventajas:
 
 - Mejora la organización del proyecto.
 - Facilita el mantenimiento del código.
-- Permite reutilizar estilos (CSS) y funcionalidades (JavaScript) en múltiples páginas HTML.
-- Mejora el rendimiento, ya que los navegadores pueden almacenar en caché los archivos CSS y JS, evitando recargas innecesarias al navegar entre páginas.
+- Permite reutilizar estilos y funcionalidades en diferentes páginas.
+- Mejora el rendimiento, ya que el navegador puede guardar en caché los archivos `.css` y `.js`.
 
-En esta clase nos enfocaremos exclusivamente en HTML, por lo que no abordaremos cómo enlazar archivos CSS y JavaScript, ni tampoco mostraremos ejemplos que incluyan malas prácticas, como incrustar CSS o JavaScript directamente dentro del archivo HTML.
+> [!TIP]
+> Por ejemplo, si tienes varias páginas HTML, todas pueden utilizar el mismo archivo CSS y el mismo archivo JavaScript, evitando repetir código.
 
-Esos temas se tratarán de forma adecuada y detallada en las primeras clases de CSS y JavaScript, respectivamente, donde aprenderás a integrarlos correctamente con HTML.
+En este capítulo nos enfocaremos únicamente en `HTML`, por lo que todavía no veremos cómo enlazar archivos CSS y JavaScript.
+
+> [!IMPORTANT]
+> Más adelante, en las secciones de CSS y JavaScript, aprenderás a enlazar correctamente estos archivos con HTML.
+
+---
 
 ### <a name="5-2"></a>5.2 Creación de un archivo HTML en Visual Studio Code
 
-Ahora que sabemos que el código HTML se escribe dentro de un archivo, ha llegado el momento de crear tu primer documento con la extensión .html. 
+Ahora que ya sabes que el código HTML se escribe dentro de un archivo con extensión `.html`, es momento de crear tu primer documento.
 
-- Abre Visual Studio Code.
-- Haz clic en el icono de "Explorer" en la barra lateral izquierda o presiona la combinación de teclas Ctrl + Shift + E.
-- Haz clic en "Open Folder" y crea una nueva carpeta en la ubicación de tu preferencia. Puedes asignarle el nombre que desees a tu nueva carpeta.
-- Ingresa a la carpeta recién creada y haz clic en "Seleccionar carpeta".
-- Ahora verás tu carpeta en el panel “Explorer”.
-- Haz clic en el icono "New File" o “Archivo Nuevo”, o haz clic derecho sobre el panel de Explorer y selecciona "New File...".
-- En el campo de texto escribe index.html como nombre del archivo. Este será tu primer archivo HTML. 
-- Una vez creado, verás en la barra lateral “Explorer” que la carpeta contiene el archivo index.html.
-- También notaras el archivo index.html abierto en el editor.
+#### Pasos para crear tu archivo HTML
 
-#### ¿Por qué usar el nombre index.html?
+1. Abre `Visual Studio Code`.
+2. Haz clic en el icono `Explorer` de la barra lateral izquierda o presiona `Ctrl + Shift + E`.
+3. Haz clic en `Open Folder`.
+4. Crea una nueva carpeta en la ubicación de tu preferencia.
+5. Asigna el nombre que desees a tu carpeta.
+6. Entra en la carpeta recién creada y haz clic en `Seleccionar carpeta`.
+7. Ahora verás tu carpeta en el panel `Explorer`.
+8. Haz clic en el icono `New File`, o haz clic derecho sobre el panel `Explorer` y selecciona `New File...`.
+9. Escribe `index.html` como nombre del archivo.
+10. Presiona `Enter`.
 
-Como ya lo explicamos anteriormente, la extensión .html indica que el archivo contiene código HTML. El nombre "index" se utiliza comúnmente como la página de inicio predeterminada de un sitio web, ya que muchos servidores web están configurados para buscar automáticamente un archivo llamado index.html y mostrarlo como la página principal cuando no se especifica una URL concreta. 
+Después de crear el archivo:
 
-### 5.3	Conclusión
+- Verás `index.html` dentro de la carpeta en el panel `Explorer`.
+- El archivo también se abrirá automáticamente en el editor de `Visual Studio Code`.
 
-En esta clase aprendiste la importancia de separar estos lenguajes en archivos independientes para mantener un proyecto organizado, eficiente y fácil de mantener. Además, diste tu primer paso práctico creando un archivo index.html en Visual Studio Code. A partir de aquí, continuaremos profundizando en HTML para construir estructuras más completas.
+> [!NOTE]
+> `index.html` será tu primer archivo HTML y será donde comenzarás a escribir el código de tus páginas web.
+
+#### ¿Por qué usar el nombre `index.html`?
+
+La extensión `.html` indica que el archivo contiene código HTML.
+
+Por otro lado, el nombre `index` se utiliza comúnmente como la página principal o página de inicio de un sitio web. Muchos servidores web están configurados para buscar automáticamente un archivo llamado `index.html` y mostrarlo cuando el usuario entra al sitio.
+
+> [!TIP]
+> Por esta razón, la mayoría de los proyectos web comienzan creando un archivo llamado `index.html`.
+
+---
+
+### <a name="5-3"></a>5.3 Conclusión
+
+En este capítulo aprendiste:
+
+- La función de `HTML`, `CSS` y `JavaScript`.
+- Por qué es recomendable mantener cada tecnología en archivos separados.
+- Cómo crear tu primer archivo `index.html` en `Visual Studio Code`.
+
+Con esto ya tienes listo tu primer archivo HTML y estás preparado para comenzar a escribir tu primer código en el siguiente capítulo.
 
 ---
 
