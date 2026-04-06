@@ -1,6 +1,6 @@
 # Capítulo 006 - HTML5: Estructura básica
 
-[⬅️ Capítulo anterior](../005%20-%20HTML5%3A%20Primer%20archivo%20HTML) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../)
+[⬅️ Capítulo anterior](../005%20-%20HTML5%3A%20Primer%20archivo%20HTML) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../007%20-%20HTML5%3A%20Visualizar%20archivo%20HTML%20en%20el%20Navegador%20Web)
 
 Haz clic en la imagen para ver el video:
 [![Ver video](https://img.youtube.com/vi/D10MwtoX9mw/maxresdefault.jpg)](https://www.youtube.com/watch?v=D10MwtoX9mw)
@@ -162,4 +162,4 @@ Con esto, la columna vertebral de tu documento HTML ya está lista. En el siguie
 
 ---
 
-[⬅️ Capítulo anterior](../005%20-%20HTML5%3A%20Primer%20archivo%20HTML) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../)
+[⬅️ Capítulo anterior](../005%20-%20HTML5%3A%20Primer%20archivo%20HTML) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../007%20-%20HTML5%3A%20Visualizar%20archivo%20HTML%20en%20el%20Navegador%20Web)
