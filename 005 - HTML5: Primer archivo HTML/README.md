@@ -1,6 +1,6 @@
 # Capítulo 005 - HTML5: Primer archivo HTML
 
-[⬅️ Capítulo anterior](../004%20-%20HTML5%3A%20Introducción) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../)
+[⬅️ Capítulo anterior](../004%20-%20HTML5%3A%20Introducción) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../006%20-%20HTML5%3A%20Estructura%20básica)
 
 Haz clic en la imagen para ver el video:
 [![Ver video](https://img.youtube.com/vi/5-QoJuRrCF4/maxresdefault.jpg)](https://www.youtube.com/watch?v=5-QoJuRrCF4)
@@ -111,4 +111,4 @@ Con esto ya tienes listo tu primer archivo HTML y estás preparado para comenzar
 
 ---
 
-[⬅️ Capítulo anterior](../004%20-%20HTML5%3A%20Introducción) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../)
+[⬅️ Capítulo anterior](../004%20-%20HTML5%3A%20Introducción) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../006%20-%20HTML5%3A%20Estructura%20básica)
