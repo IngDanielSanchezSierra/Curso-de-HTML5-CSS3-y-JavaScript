@@ -29,7 +29,7 @@ Este capítulo no tiene archivos adicionales.
 
 ## 📖 Contenido del capítulo
 
-## <a name="1-1"></a>1.1 ¡Bienvenid@ al curso!
+### <a name="1-1"></a>1.1 ¡Bienvenid@ al curso!
 
 ¡Hola! ¡Estoy muy feliz de darte la bienvenida!
 Soy Daniel Sierra y estaré acompañándote a lo largo de este curso de HTML5, CSS3 y JavaScript.
@@ -44,7 +44,7 @@ Si en algún momento tienes alguna duda, no dudes en pedir ayuda. Recuerda que e
 
 Bueno, después de esta pequeña bienvenida, pasemos a algunos puntos clave sobre el curso.
 
-## <a name="1-2"></a>1.2 ¿Para quién está diseñado el curso?
+### <a name="1-2"></a>1.2 ¿Para quién está diseñado el curso?
 
 Este curso está pensado para diferentes niveles de experiencia:
 
@@ -54,13 +54,13 @@ Avanzados que buscan perfeccionar y actualizar sus conocimientos en desarrollo w
 
 Cualquiera que sea tu nivel, aquí encontrarás contenido adecuado para aprender de manera progresiva.
 
-## <a name="1-3"></a>1.3 ¿Qué aprenderás en este curso?
+### <a name="1-3"></a>1.3 ¿Qué aprenderás en este curso?
 
 A lo largo del curso, avanzarás desde conceptos básicos hasta técnicas avanzadas de desarrollo web con HTML5, CSS3 y JavaScript.
 
 Construirás una base sólida y explorarás herramientas y prácticas modernas que se utilizan en la industria, preparándote para desarrollar proyectos completos y funcionales.
 
-## <a name="1-4"></a>1.4 ¿Cómo aprenderás en este curso?
+### <a name="1-4"></a>1.4 ¿Cómo aprenderás en este curso?
 
 Nuestro enfoque es práctico y progresivo:
 
@@ -72,7 +72,7 @@ Algunas clases se regraban cuando es necesario para mejorar la calidad del conte
 
 Además, en la descripción de cada clase encontrarás información adicional, herramientas recomendadas y materiales complementarios para reforzar tu aprendizaje.
 
-## <a name="1-5"></a>1.5 ¿Por qué aprender HTML, CSS y JavaScript?
+### <a name="1-5"></a>1.5 ¿Por qué aprender HTML, CSS y JavaScript?
 
 Hoy en día, el desarrollo web es una de las habilidades más demandadas en el mundo digital.
 
