@@ -35,9 +35,13 @@ Este capítulo no tiene archivos adicionales.
 
 Antes de comenzar con el desarrollo web, es importante contar con las herramientas adecuadas. En este capítulo instalaremos un editor de código para trabajar con HTML, CSS y JavaScript, y también un navegador web que nos permita visualizar nuestras páginas y utilizar herramientas de desarrollo avanzadas.
 
+---
+
 ### <a name="3-2"></a>3.2 Editor de código
 
 Existen editores de código especialmente diseñados para programadores que facilitan y mejoran la experiencia durante el desarrollo.
+
+---
 
 ### <a name="3-3"></a>3.3 Instalación de Visual Studio Code (VS Code)
 
@@ -59,6 +63,8 @@ Además, Visual Studio Code es una herramienta muy versátil, ya que permite pro
 10. Haz clic en `Finalizar` y abre VS Code.
 
 ¡Listo! Ahora ya tienes Visual Studio Code instalado y preparado para comenzar a trabajar.
+
+---
 
 ### <a name="3-4"></a>3.4 Instalación de extensiones para Visual Studio Code
 
@@ -127,9 +133,13 @@ Por último, instalaremos la extensión `ESLint`, la cual nos ayuda a detectar e
 
 A partir de ahora, ESLint marcará automáticamente los errores y advertencias en tu código, resaltándolos en color rojo o amarillo. También podrás consultar más detalles en la barra de problemas ubicada en la parte inferior de Visual Studio Code.
 
+---
+
 ### <a name="3-5"></a>3.5 Navegador web
 
 Para visualizar nuestras páginas web, necesitamos un navegador actualizado. Existen muchos navegadores disponibles, como Google Chrome, Mozilla Firefox o Microsoft Edge.
+
+---
 
 ### <a name="3-6"></a>3.6 Instalación de Google Chrome
 
