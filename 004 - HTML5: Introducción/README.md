@@ -30,7 +30,7 @@ En este capítulo aprenderás:
 
 ## 📖 Contenido del capítulo
 
-## 4.1 ¿Qué es HTML y su versión moderna HTML5?
+### 4.1 ¿Qué es HTML y su versión moderna HTML5?
 
 HTML son las siglas de **HyperText Markup Language**, que en español significa **Lenguaje de Marcado de Hipertexto**.
 
@@ -59,7 +59,7 @@ Por ejemplo, con HTML podemos indicar:
 
 ---
 
-## 4.2 ¿Cómo se estructura HTML?
+### 4.2 ¿Cómo se estructura HTML?
 
 Ahora que ya sabes qué es HTML5, veamos cómo se estructura un documento HTML.
 
@@ -122,7 +122,7 @@ Esta es una página HTML muy simple.
 
 ---
 
-## 4.3 ¿Qué es una etiqueta en HTML?
+### 4.3 ¿Qué es una etiqueta en HTML?
 
 Después de entender la estructura de un documento, es importante conocer el concepto más básico de HTML: las etiquetas.
 
@@ -216,7 +216,7 @@ Esta es una página HTML muy simple.
 
 ---
 
-## 4.4 Atributos
+### 4.4 Atributos
 
 Además de las etiquetas, los elementos HTML también pueden tener atributos.
 
@@ -247,7 +247,7 @@ Aquí, el atributo `type` indica qué tipo de campo será mostrado.
 
 ---
 
-## 4.5 Tipos de elementos
+### 4.5 Tipos de elementos
 
 En HTML existen dos tipos principales de elementos:
 
@@ -290,7 +290,7 @@ En este caso:
 
 ---
 
-## 4.6 Jerarquía entre elementos
+### 4.6 Jerarquía entre elementos
 
 Los elementos HTML también pueden colocarse unos dentro de otros.
 
@@ -327,7 +327,7 @@ Esto permite organizar el contenido como si fuera un árbol.
 
 ---
 
-## 4.7 Conclusión
+### 4.7 Conclusión
 
 En esta clase aprendiste:
 
