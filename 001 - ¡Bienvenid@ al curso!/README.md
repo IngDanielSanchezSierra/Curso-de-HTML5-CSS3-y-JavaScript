@@ -78,6 +78,8 @@ Algunas clases se regraban cuando es necesario para mejorar la calidad del conte
 
 Además, en la descripción de cada clase encontrarás información adicional, herramientas recomendadas y materiales complementarios para reforzar tu aprendizaje.
 
+---
+
 ### <a name="1-5"></a>1.5 ¿Por qué aprender HTML, CSS y JavaScript?
 
 Hoy en día, el desarrollo web es una de las habilidades más demandadas en el mundo digital.
