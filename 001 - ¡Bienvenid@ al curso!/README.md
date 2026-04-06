@@ -44,6 +44,8 @@ Si en algún momento tienes alguna duda, no dudes en pedir ayuda. Recuerda que e
 
 Bueno, después de esta pequeña bienvenida, pasemos a algunos puntos clave sobre el curso.
 
+---
+
 ### <a name="1-2"></a>1.2 ¿Para quién está diseñado el curso?
 
 Este curso está pensado para diferentes niveles de experiencia:
@@ -54,11 +56,15 @@ Avanzados que buscan perfeccionar y actualizar sus conocimientos en desarrollo w
 
 Cualquiera que sea tu nivel, aquí encontrarás contenido adecuado para aprender de manera progresiva.
 
+---
+
 ### <a name="1-3"></a>1.3 ¿Qué aprenderás en este curso?
 
 A lo largo del curso, avanzarás desde conceptos básicos hasta técnicas avanzadas de desarrollo web con HTML5, CSS3 y JavaScript.
 
 Construirás una base sólida y explorarás herramientas y prácticas modernas que se utilizan en la industria, preparándote para desarrollar proyectos completos y funcionales.
+
+---
 
 ### <a name="1-4"></a>1.4 ¿Cómo aprenderás en este curso?
 
