@@ -27,50 +27,138 @@ En este capítulo aprenderás:
 
 ## 📖 Contenido del capítulo
 
-Es momento de aprender la estructura básica de un documento HTML5. Construiremos juntos la columna vertebral de cualquier página web, entendiendo cada elemento y su función dentro de la página. Al finalizar, tendrás tu primer documento HTML completamente funcional y listo para agregar contenido.
+Es momento de aprender la estructura básica de un documento `HTML5`. En este capítulo construiremos la columna vertebral de cualquier página web y conocerás la función de cada uno de sus elementos principales.
+
+Al finalizar, tendrás tu primer documento HTML completamente funcional y listo para comenzar a agregar contenido.
+
+---
 
 ### <a name="6-1"></a>6.1 Tipo de documento
 
-Los navegadores son capaces de procesar diferentes tipos de archivos, por este motivo, lo primero que debemos hacer en la construcción de un documento con código HTML es indicar su tipo. Para asegurarnos de que el contenido de nuestro documento sea interpretado correctamente como código HTML5, agregamos la declaración: <!DOCTYPE html>. Es importante aclarar que esta no es una etiqueta HTML, sino una declaración, y esta debe ser la primera línea del documento, sin ningún espacio o código previo. Aunque visualmente las páginas podrían verse igual sin esa línea en navegadores web modernos, es una buena práctica incluirla siempre, porque garantiza consistencia y compatibilidad con la versión 5 de HTML. 
+Los navegadores pueden procesar distintos tipos de archivos. Por esta razón, lo primero que debemos hacer al crear un documento HTML es indicar qué tipo de documento estamos utilizando.
 
-En versiones anteriores de HTML, esta declaración era mucho más larga y compleja. En HTML5 se simplificó al máximo para que sea fácil de recordar.
+Para decirle al navegador que nuestro archivo utiliza `HTML5`, agregamos la siguiente declaración al inicio del documento:
+
+```html
+<!DOCTYPE html>
+```
+
+> [!IMPORTANT]
+> `<!DOCTYPE html>` no es una etiqueta HTML. Es una declaración y siempre debe colocarse en la primera línea del documento, sin espacios ni código antes de ella.
+
+Aunque en muchos navegadores modernos una página puede funcionar incluso sin esta línea, es una buena práctica incluirla siempre, ya que garantiza que el documento sea interpretado correctamente como `HTML5`.
+
+> [!NOTE]
+> En versiones anteriores de HTML esta declaración era mucho más larga y compleja. En `HTML5` se simplificó para que sea más fácil de recordar.
+
+---
 
 ### <a name="6-2"></a>6.2 Elementos estructurales
 
-Como lo mencionamos anteriormente, los elementos HTML conforman una estructura de tipo árbol. Esta estructura presenta múltiples niveles de organización, con elementos padres he hijos, o elementos hermanos. Algunos de estos elementos están a cargo de definir secciones generales del documento y otros encargados de representar secciones menores o contenido. 
+Los elementos HTML forman una estructura similar a un árbol, donde existen elementos padres, hijos y hermanos.
 
-Después de declarar el tipo de documento, iniciamos la estructura con el elemento raíz <html>. Este elemento puede incluir el atributo “lang” para declarar el idioma en el que vamos a escribir el contenido de la página. 
+Algunos elementos se encargan de definir las secciones principales del documento, mientras que otros representan contenido más específico dentro de la página.
 
-Existen varios valores disponibles para el atributo “lang", por ejemplo: “en” para inglés, “fr” para francés y “es” para español. No son los únicos, existen valores que no son solo para especificar idiomas en general, también existen valores que puedes usar para especificar idiomas con precisión regional, por ejemplo: es-MX para español de México. 
+Después de la declaración `<!DOCTYPE html>`, el siguiente elemento que debemos escribir es el elemento raíz:
 
-Siempre se recomienda usar el “lang” más específico posible, por ejemplo “es-MX” en lugar de solo “es” para que los lectores de pantalla, traductores automáticos y buscadores interpreten mejor el contenido.
+```html
+<html lang="es-MX">
+</html>
+```
 
-No puedes poner varios idiomas a la vez en un “lang”. Solo uno. Si una página tiene varias secciones en diferentes idiomas, lo correcto es agregar un atributo “lang” con su respectivo idioma en el párrafo, título, texto u otro elemento que contenga un idioma diferente.
+El elemento `<html>` representa todo el documento HTML y puede incluir el atributo `lang`, el cual sirve para indicar el idioma principal de la página.
 
-Por ejemplo, el siguiente párrafo, que contiene texto en inglés, lo podemos especificar con el atributo “lang“ y su respectivo valor “en” para ingles en general.
+Existen muchos valores posibles para `lang`. Algunos ejemplos son:
 
+- `es` → Español
+- `es-MX` → Español de México
+- `en` → Inglés
+- `en-US` → Inglés de Estados Unidos
+- `fr` → Francés
+
+> [!TIP]
+> Siempre es recomendable usar el valor más específico posible. Por ejemplo, es mejor usar `es-MX` en lugar de solamente `es`.
+
+Esto ayuda a que:
+
+- Los lectores de pantalla interpreten mejor el contenido.
+- Los traductores automáticos funcionen correctamente.
+- Los buscadores entiendan mejor el idioma de la página.
+
+> [!IMPORTANT]
+> El atributo `lang` solamente puede tener un idioma principal a la vez.
+
+Si una parte de la página está escrita en otro idioma, lo correcto es agregar el atributo `lang` únicamente al elemento que contiene ese texto.
+
+Por ejemplo:
+
+```html
 <p lang="en">This text is in English.</p>
+```
 
-No te preocupes si aun no sabes lo que es un párrafo <p>, esto lo veremos cuando expliquemos los elementos de texto. Solo quería aclarar lo evidente, en la vida real una página web puede contener información en diferentes idiomas, y una buena práctica como desarrollador es especificar en el elemento raíz <html> el idioma principal de la página, y posteriormente especificar el idioma requerido en cada uno de los elementos con diferente idioma.
+> [!NOTE]
+> No te preocupes si todavía no sabes qué es la etiqueta `<p>`. Más adelante aprenderás a trabajar con párrafos y otros elementos de texto.
 
-Son tantos idiomas que podemos usar en el atributo “lang” que no los podemos mencionar todos, pero aquí podemos ver una tabla de los más comunes:
-
-Ejemplos comunes:
+A continuación puedes ver algunos de los códigos de idioma más utilizados:
 
 ![Fig. 1 - Tabla de códigos de idiomas BCP más comunes](media/Fig.%201%20-%20Tabla%20de%20códigos%20de%20idiomas%20BCP%20más%20comunes.png)
 
 *Fig. 1 - Tabla de códigos de idiomas BCP más comunes.*
 
-Ahora conozcamos los elementos que definen la columna vertebral de la estructura de un documento HTML.
+---
 
-El código insertado dentro de las etiquetas <html> se tiene que dividir en dos secciones principales: el elemento <head> que corresponde a la cabecera del documento html y el elemento <body> que corresponde al cuerpo del documento html. Por supuesto, empezando con la cabecera.
+Ahora conozcamos los elementos principales que forman la estructura básica de cualquier documento HTML.
 
-<head> es el elemento que define la información necesaria para configurar la página web, como el título, el icono, el tipo de codificación de caracteres, metadatos, archivos externos requeridos por el documento, etc. 
-Todos estos los veremos después de explicar lo que es body.
+Dentro del elemento `<html>` debemos dividir el documento en dos secciones principales:
 
-<body> es el elemento que delimita el contenido del documento. Es la parte visible de la página web. Aquí es donde agregaremos texto, imágenes, videos, formularios y cualquier otro elemento visible para el usuario. 
+```html
+<html lang="es-MX">
+    <head>
+    </head>
 
-Con esto, la columna vertebrar ya está lista. En la siguiente clase aprenderemos a definir la información de la cabecera <head>.
+    <body>
+    </body>
+</html>
+```
+
+#### El elemento `<head>`
+
+El elemento `<head>` corresponde a la cabecera del documento HTML.
+
+Dentro de esta sección se agrega la información necesaria para configurar la página, por ejemplo:
+
+- El título de la página.
+- El icono o favicon.
+- La codificación de caracteres.
+- Metadatos.
+- Archivos CSS y JavaScript externos.
+
+> [!NOTE]
+> Más adelante, en el siguiente capítulo, aprenderás a configurar correctamente todos estos elementos.
+
+#### El elemento `<body>`
+
+El elemento `<body>` representa el cuerpo del documento y contiene toda la parte visible de la página web.
+
+Aquí es donde agregaremos:
+
+- Texto
+- Imágenes
+- Videos
+- Formularios
+- Botones
+- Y cualquier otro elemento visible para el usuario
+
+```html
+<body>
+    <!-- Aquí irá el contenido visible de la página -->
+</body>
+```
+
+> [!TIP]
+> Todo lo que el usuario ve dentro de la página web se coloca dentro del elemento `<body>`.
+
+Con esto, la columna vertebral de tu documento HTML ya está lista. En el siguiente capítulo aprenderás a configurar la información de la cabecera utilizando el elemento `<head>`.
 
 ---
 
