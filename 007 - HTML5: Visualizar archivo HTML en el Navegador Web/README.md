@@ -1,6 +1,6 @@
 # Capítulo 007 - HTML5: Visualizar archivo HTML en el Navegador Web
 
-[⬅️ Capítulo anterior](../006%20-%20HTML5%3A%20Estructura%20básica) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../)
+[⬅️ Capítulo anterior](../006%20-%20HTML5%3A%20Estructura%20básica) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../008%20-%20HTML5:%20Agregar%20Título%20e%20Icono%20en%20tu%20Página%20Web)
 
 Haz clic en la imagen para ver el video:
 [![Ver video](https://img.youtube.com/vi/ZRhq_SV55dI/maxresdefault.jpg)](https://www.youtube.com/watch?v=ZRhq_SV55dI)
@@ -112,4 +112,4 @@ Con cualquiera de estos dos métodos ya puedes visualizar tu archivo HTML en el 
 
 ---
 
-[⬅️ Capítulo anterior](../006%20-%20HTML5%3A%20Estructura%20básica) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../)
+[⬅️ Capítulo anterior](../006%20-%20HTML5%3A%20Estructura%20básica) | [🏠 Índice del curso](../README.md) | [➡️ Siguiente capítulo](../008%20-%20HTML5:%20Agregar%20Título%20e%20Icono%20en%20tu%20Página%20Web)
