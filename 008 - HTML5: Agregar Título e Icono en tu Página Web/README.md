@@ -24,6 +24,7 @@ En este capítulo aprenderás:
 ## 📁 Recursos
 
 - [index.html](./recursos/index.html)
+- [icono.png](./recursos/imagenes/icono.png)
 
 ---
 
